@@ -1,5 +1,5 @@
 var addElementToBeginningOfArray = (array, element) => {
-  return 
+  return [element, ...array];
 }
 
 var destructivelyAddElementToBeginningOfArray = (array, element) => {
