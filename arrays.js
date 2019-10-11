@@ -36,3 +36,8 @@ var destructivelyRemoveElementFromEndOfArray = (array) => {
 var removeElementFromEndOfArray = (array) => {
   return array = array.slice(0, array.length-1);
 }
+
+var accessElementInArray = (array, index) => {
+  retunr array[index];
+}
+
