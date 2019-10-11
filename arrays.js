@@ -1,10 +1,6 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 
-var accessElementInArray = (array, index) => {
-  retunr array[index];
-}
-
 
 var addElementToBeginningOfArray = (array, element) => {
   return [element, ...array];
