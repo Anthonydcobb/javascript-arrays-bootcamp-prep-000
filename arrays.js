@@ -6,7 +6,8 @@ var addElementToBeginningOfArray = (array, element) => {
 }
 
 var destructivelyAddElementToBeginningOfArray = (array, element) => {
-  return array.unshift(element);
+  array.unshift(element);
+  return array;
 }
 
 var addElementToEndOfArray = (array, element) => {
@@ -14,11 +15,13 @@ var addElementToEndOfArray = (array, element) => {
 }
 
 var destructivelyAddElementToEndOfArray = (array, element) => {
-  return array.push(element);
+  array.push(element);
+  return array;
 }
 
 var destructivelyRemoveElementFromBeginningOfArray = (array) => {
-  return array.shift();
+  array.shift();
+  return array;
 }
 
 var removeElementFromBeginningOfArray = (array) => {
@@ -26,7 +29,8 @@ var removeElementFromBeginningOfArray = (array) => {
 }
 
 var destructivelyRemoveElementFromEndOfArray = (array) => {
-  return array.pop();
+  array.pop();
+  return array;
 }
 
 var removeElementFromEndOfArray = (array) => {
