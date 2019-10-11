@@ -40,4 +40,3 @@ var removeElementFromEndOfArray = (array) => {
 var accessElementInArray = (array, index) => {
   retunr array[index];
 }
-
