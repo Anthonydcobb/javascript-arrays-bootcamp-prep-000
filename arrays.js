@@ -8,3 +8,9 @@ var addElementToBeginningOfArray = (array, element) => {
 var destructivelyAddElementToBeginningOfArray = (array, element) => {
   return array.unshift(element);
 }
+
+var addElementToEndOfArray = (array, element) => {
+  return [...aray, element];
+}
+
+var
